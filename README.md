@@ -26,6 +26,8 @@ Additional options:
 
 Add "thinking" spinner before response, especially when the LLM is cold.
 
+Don't require quotes around prompt.
+
 Add callout to `task` CLI. 
 
 Implement `--auto-confirm` flag. 
