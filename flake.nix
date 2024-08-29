@@ -33,7 +33,7 @@
         packages = {
           tasky = craneLib.buildPackage {
             src = craneLib.cleanCargoSource ./.;
-            doCheck = false; # TODO: Add example files to check environment so the tests pass.
+            nativeBuildInputs = with pkgs; [pkg-config openssl];
           };
           default = packages.tasky;
         };

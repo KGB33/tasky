@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+ollama-rs = { version = "0.2.0", features = ["stream"] }
+tokio = "1.39.3"
+tokio-stream = "0.1.15"
