@@ -21,3 +21,17 @@ Confirm? [Y/n]
 
 Additional options:
   - `-y`/`--auto-approve`
+
+# To-dos:
+
+Add "thinking" spinner before response, especially when the LLM is cold.
+
+Add callout to `task` CLI. 
+
+Implement `--auto-confirm` flag. 
+
+Add configuration options for:
+  - Model
+  - Ollama server URL
+  - Auto confirm when TaskWarrior command starts with set prefixes
+    - For example, `task add ...` can probably be auto-confirmed, but `task rm ...` shouldn't be.
